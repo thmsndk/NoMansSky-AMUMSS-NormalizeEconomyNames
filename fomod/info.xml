@@ -1,0 +1,17 @@
+<fomod>
+    <Name>Normalize Economy Names</Name>
+
+    <Author>thmsn</Author>
+
+    <Version MachineVersion="3.62">
+        3.62
+    </Version>
+
+    <Description>
+        Removes unnecessary names from economy level, economy class and conflict levels. Does not alter gameplay just UI strings.
+    </Description>
+
+    <Website>
+        https://www.nexusmods.com/nomanssky/mods/2051
+    </Website>
+</fomod>

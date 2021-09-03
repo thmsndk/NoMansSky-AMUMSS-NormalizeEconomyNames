@@ -1,0 +1,88 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+
+    <moduleName>Atmosphere Hover - Pulse Speed Adjustments</moduleName>
+
+    <installSteps order="Explicit">
+        <installStep name="Choose Language">
+            <optionalFileGroups order="Explicit">
+                <group name="Select language:" type="SelectExactlyOne">
+                    <plugins order="Ascending">
+
+                        <plugin name="Brazilian Portuguese">
+                            <description></description>
+                            <files>
+                                <file source="NEN_BrazilianPortuguese_everything_AMUMSS.pak"/>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+
+                        <plugin name="English">
+                            <description></description>
+                            <files>
+                                <file source="NEN_English_everything_AMUMSS.pak"/>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Recommended"/>
+                            </typeDescriptor>
+                        </plugin>
+
+                        <plugin name="Dutch">
+                            <description></description>
+                            <files>
+                                <file source="NEN_Dutch_everything_AMUMSS.pak"/>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+
+                        <plugin name="French">
+                            <description></description>
+                            <files>
+                                <file source="NEN_French_everything_AMUMSS.pak"/>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+
+                        <plugin name="German">
+                            <description></description>
+                            <files>
+                                <file source="NEN_German_everything_AMUMSS.pak"/>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+
+                        <plugin name="Italian">
+                            <description></description>
+                            <files>
+                                <file source="NEN_Italian_everything_AMUMSS.pak"/>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+
+                        <plugin name="Japanese">
+                            <description></description>
+                            <files>
+                                <file source="NEN_Japanese_everything_AMUMSS.pak"/>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+    </installSteps>
+
+</config>
